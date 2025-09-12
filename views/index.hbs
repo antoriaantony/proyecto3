@@ -8,12 +8,15 @@
 </head>
 <body>
     <div class="titulo">
-        <h1> Pagina de Inicio </h1>
+        <h1> Tienda online, Inicio </h1>
     </div>
     <div class="contenido">
         <p>
-            contenido de la pagina
+            Productos disponibles
         </p>
+            {{#each menu}}
+            <button>{{ this.nombre }}</button></button>
+            {{/each}}
          <button></button>
         <button>enviar</button>
          <button>enviarasasda</button>
@@ -21,7 +24,7 @@
         <h5> Pagina de Inicio </h5>
     </div>
     <div class="footer">
-        todos los derechos reservados 2025
+        todos los derechos reservados ©2025
        
     </div>
 </body>

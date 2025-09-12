@@ -6,8 +6,11 @@ const menu = [
     {nombre:"carrito",ruta:"/carrito",icono:""}
 ]   
 servidor.get("/",(req,res)=>{
-    res.send({ menu })
+    res.render( "index.hbs",{ menu,carrito } )
 })
+const carrito =[
+
+]
 servidor.get("/contacto",(req,res)=>{
     res.render("contacto.hbs")
 })
