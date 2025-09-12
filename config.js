@@ -8,6 +8,7 @@ import path from "path"
 //---------------------------------------------------------
 let pagina = path.join(__dirname, "views")
 const servidor = express()
+servidor.use(express.json())
 servidor.use(express.static(pagina))
 servidor.set("view engine", "hbs")
 hbs.registerPartials(path.join(__dirname, '/views/partials'))
