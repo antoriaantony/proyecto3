@@ -27,3 +27,18 @@
 .contenido h5{
     display: none;
 }
+.menu{
+    width: 400px;
+    height: 70px;
+    background-color: brown;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+}
+.boton{
+    width: 60px;
+    height: 40px;
+}

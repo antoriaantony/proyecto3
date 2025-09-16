@@ -9,6 +9,11 @@ servidor.get("/",(req,res)=>{
     res.render( "index.hbs",{ menu,carrito } )
 })
 const carrito =[
+ {
+    nombre: "Iphone 10 Pro Max",
+    precio:"800",
+    foto:""
+ }   
 
 ]
 servidor.get("/contacto",(req,res)=>{
