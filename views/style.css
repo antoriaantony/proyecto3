@@ -30,7 +30,6 @@
 .menu{
     width: 400px;
     height: 70px;
-    background-color: rgb(42, 165, 128);
     right: 0;
     position: absolute;
     display: flex;
