@@ -37,6 +37,7 @@
     justify-content: flex-end;
     align-items: center;
     column-gap: 20px;
+    padding-right: 20px;
 }
 .boton{
     width: 60px;
